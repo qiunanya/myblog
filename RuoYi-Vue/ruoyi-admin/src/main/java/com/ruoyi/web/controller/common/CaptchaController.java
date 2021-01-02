@@ -34,10 +34,8 @@ public class CaptchaController
 
     @Autowired
     private RedisCache redisCache;
-
-    /**
-     * 验证码类型
-     */
+    
+    // 验证码类型
     @Value("${ruoyi.captchaType}")
     private String captchaType;
 
