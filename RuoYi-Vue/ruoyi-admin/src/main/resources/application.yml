@@ -1,7 +1,7 @@
 # 项目相关配置
 ruoyi:
   # 名称
-  name: RuoYi
+  name: Qiunanya
   # 版本
   version: 3.3.0
   # 版权年份
@@ -9,6 +9,7 @@ ruoyi:
   # 实例演示开关
   demoEnabled: true
   # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
+  # /home/uploadimg/imgs  D:/ruoyi/uploadPath
   profile: D:/ruoyi/uploadPath
   # 获取ip地址开关
   addressEnabled: false
@@ -67,7 +68,7 @@ spring:
     # 密码
     password: "qiuaimei"
     # 连接超时时间
-    timeout: 10s
+    timeout: 30s
     lettuce:
       pool:
         # 连接池中的最小空闲连接
